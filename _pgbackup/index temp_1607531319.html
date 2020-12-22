@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+	<head> 
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/img/logo_progom_viejo.png"/>
+		<!-- Boostrap -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+		<!-- Material Design Bootstrap -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+		<!-- Estilos -->
+		<link href="assets/styles/css/global.css" rel="stylesheet" type="text/css">
+		<title>Progom</title>		 
+	</head>	 
+	<body style="background-image: url('assets/img/Traslucido.jpg'); background-position: center center; background-size: cover;">
+		<div class="container" style="height: 100vh;">
+			<header id="header-2" class="header-2 soft-scroll">
+				<nav class="main-nav navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="#"> <img src="images/brand/pgblocks-logo-nostrap.png" class="brand-img img-responsive"> </a>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="navbar-collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="nav-item active">
+									<a href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="#">Features</a>
+								</li>
+								<li class="nav-item">
+									<a href="#">Pricing</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Pages <i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Dropdown 1</a>
+										</li>
+										<li>
+											<a href="#">Dropdown 2</a>
+										</li>
+										<li>
+											<a href="#">Dropdown 3</a>
+										</li>
+										<li>
+											<a href="#">Dropdown 4</a>
+										</li>
+										<li>
+											<a href="#">Dropdown 5</a>
+										</li>
+										<li>
+											<a href="#">Dropdown 6</a>
+										</li>
+									</ul>									 
+								</li>
+								<!-- /.dropdown -->								 
+								<li class="nav-item">
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</header>
+			<nav class="align-items-center fixed-top flex-row-reverse navbar navbar-expand-lg navbar-light pb-0 pt-0"> 
+				<div class="row">
+					<img src="assets/img/logo_progom_viejo.png" alt="" class="col-lg-11 col-md-auto navbar-brand " data-pg-name="Logo" id="Logo" title="Logo" style="width: 6em;">
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler12" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> 
+					<span class="navbar-toggler-icon "></span> 
+				</button>
+				<ul class=" collapse d-lg-flex justify-content-start mb-lg-1 nav navbar-collapse overflow-hidden row" id="navbarToggler12">
+					<li class="bg-clouds button col-lg-auto col-md-12 nav-item p-0 text-center"> 
+						<a href="#" class="active black nav-link p-3 white-hover" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true" data-target="#tab1" onclick="irA('Home')">Home</a>
+					</li>
+					<li class="bg-clouds button col-lg-auto col-md-12 nav-item p-0 text-center">
+						<a href="#" class="black nav-link p-3 white-hover" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true" data-target="#tab4" onclick="irA('Sobre Nosotros')">Sobre Nosotros</a>
+					</li>
+					<li class="bg-clouds button col-lg-auto col-md-12 nav-item p-0 text-center">
+						<a href="#" class="black nav-link p-3 white-hover" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true" data-target="#tab2" onclick="irA('Productos')">Productos</a>
+					</li>
+					<li class="bg-clouds button col-lg-auto col-md-12 nav-item p-0 text-center"> 
+						<a href="#" class="black nav-link p-3 white-hover" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true" data-target="#tab3" onclick="irA('Servicios')">Servicios</a> 
+					</li>
+					<li class="bg-clouds button col-lg-auto col-md-12 nav-item p-0 text-center"> 
+						<a class="black nav-link p-3 white-hover" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true" data-target="#tab4" onclick="irA('Ofertas')" href="#">Ofertas</a>
+					</li>					 
+				</ul>				 
+			</nav>
+			<div class="mt-5 pt-4 row" data-pg-name="Contenido row">
+				<div class="col-md-4">
+					<h3>Column title</h3> 
+					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+				</div>
+				<div class="col-lg-12 col-md-9" id="Contenido" data-pg-name="Contenido" title="Contenido">
+					<main>
+						<iframe class="border-0 border-light pg-empty-placeholder" src="subRutas/Home.html" width="100%" height="100%" scrolling="no" id="main"></iframe>
+					</main>
+					<footer>
+						<section class="bg-deepocean content-block-nopad footer-wrap-1-3">
+							<!-- /.container -->
+						</section>
+					</footer>					 
+				</div>
+			</div>
+		</div>		 
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/popper.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+		<script type="text/javascript" src="assets/js/global.js"></script>
+	</body>	 
+</html>

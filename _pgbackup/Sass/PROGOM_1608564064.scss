@@ -1,0 +1,110 @@
+@mixin make-row() {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: (30px / -2);
+    margin-left: (30px / -2);
+}
+
+$blanco: #fff;
+$azul: #007bff;
+nav {
+    .logo {
+        .triangulo {
+            -webkit-clip-path: polygon(50% 100%, 3% 0, 100% 0);
+            clip-path: polygon(50% 100%, 3% 0, 100% 0);
+            width: 100%;
+            background-color: $azul;
+            height: 50%;
+        }
+        .titulo {
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            padding: 0px;
+        }
+    }
+    ul.navbar-nav {
+        li.nav-item button {
+            &:hover {
+                background-color: $azul;
+                font-weight: bold;
+                & a:hover {
+                    color: #ffffff;
+                }
+            }
+
+            width: 96%;
+        }
+        .nav-link {
+            color: #ffffff;
+        }
+    }
+}
+
+body>div.container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    .container-fluid {
+        height: 100vh;
+        #Aside {
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+    .container-lg {
+        height: auto;
+    }
+}
+
+.page {
+    min-height: 100vh;
+    height: 1889px;
+}
+
+#contenidoHome {
+    margin-top: auto
+}
+
+.ofertas.row {
+    overflow: hidden;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    &.logo {
+    }
+    .card {
+        margin: 13em;
+        background-color: #f91b1b;
+        h3 {
+            & span {
+                display: flex;
+                font-weight: bold;
+            }
+            & div.slider {
+                width: 100&;
+                & img {
+                }
+            }
+        }
+        img.card-img-top {
+        }
+        div.card-body {
+            h5.card-title {
+            }
+            p.card-text {
+            }
+            a.btn.btn-primary {
+            }
+        }
+    }
+}
+
+.row {
+    .botonWhatsapp {
+        height: 65px;
+        background-color: #32ff00;
+    }
+}

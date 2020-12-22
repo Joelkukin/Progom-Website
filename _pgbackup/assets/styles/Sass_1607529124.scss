@@ -1,0 +1,53 @@
+$blanco: #fff;
+$azul: #007bff;
+
+body > div.container {
+    justify-content: center;
+}
+
+.container-fluid * {
+    border-top-width: 6px;
+    border-top-color: #ff0000;
+    align-items: flex-start;
+}
+
+ul.navbar-nav {
+    display: block;
+
+    .nav-link {
+        color: #ffffff;
+
+        &:hover {
+            font-weight: bold;
+            color: darken($blanco, $amount: 50%);
+        }
+    }
+}
+
+#Contenido {
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+#Aside {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body > .container-lg {
+}
+
+li.nav-item button {
+    width: 96%;
+}
+
+.nav-item:hover {
+    background-color: $azul;
+    font-weight: bold;
+
+    & a:hover {
+        color: #ffffff;
+    }
+}

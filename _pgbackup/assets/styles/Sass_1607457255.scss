@@ -1,0 +1,79 @@
+:root {
+    --azul: #1e90ff;
+    --celeste: rgb();
+    --white: #ffffff;
+  }
+  
+body > div.container {
+    justify-content: center;
+}
+
+.container-fluid * {
+    border-top-width: 6px;
+    border-top-color: #ff0000;
+    align-items: flex-start;
+}
+
+* {
+    border-top-style: none;
+    border-top-color: #ffffff;
+    border-left-style: none;
+    border-left-color: #ffffff;
+    border-right-style: none;
+    border-right-color: #ffffff;
+    border-bottom-style: none;
+    border-bottom-color: #ffffff;
+}
+
+.nav-link:hover {
+    color: var(--celeste);
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+ul.navbar-nav {
+    display: block;
+}
+
+
+#Contenido {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.navbar .row {
+    right: 0;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    top: 0;
+    margin-top: -7px;
+}
+
+#Aside {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav {
+    justify-content: center;
+    display: block;
+}

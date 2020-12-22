@@ -1,0 +1,60 @@
+nav .logo .triangulo {
+      -webkit-clip-path: polygon(50% 100%, 3% 0, 100% 0);
+      clip-path: polygon(50% 100%, 3% 0, 100% 0);
+      width: 100%;
+      background-color: #007bff;
+      height: 50%; }
+    nav .logo .titulo {
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      padding: 0px; }
+    nav ul.navbar-nav li.nav-item button {
+      width: 96%; }
+      nav ul.navbar-nav li.nav-item button:hover {
+        background-color: #007bff;
+        font-weight: bold; }
+        nav ul.navbar-nav li.nav-item button:hover a:hover {
+          color: #ffffff; }
+    nav ul.navbar-nav .nav-link {
+      color: #ffffff; }
+
+body > div.container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  body > div.container .container-fluid {
+    height: 100vh; }
+    body > div.container .container-fluid #Aside {
+      margin-top: 0;
+      padding-top: 0; }
+  body > div.container .container-lg {
+    height: auto; }
+
+.page {
+  min-height: 100vh;
+  height: 1889px; }
+
+#contenidoHome {
+  margin-top: auto; }
+
+.ofertas.row {
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0; }
+  .ofertas.row .card {
+    margin: 13em;
+    background-color: #f91b1b; }
+      .ofertas.row .card h3 span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-weight: bold; }
+      .ofertas.row .card h3 div.slider {
+        width: 100 .ofertas.row .card h3 div.slider; }
+  .row .botonWhatsapp {
+    height: 65px;
+    background-color: #32ff00; }

@@ -1,0 +1,72 @@
+nav .logo .triangulo {
+      -webkit-clip-path: polygon(50% 100%, 3% 0, 100% 0);
+      clip-path: polygon(50% 100%, 3% 0, 100% 0);
+      width: 100%;
+      background-color: #007bff;
+      height: 50%; }
+    nav .logo .titulo {
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      padding: 0px; }
+    nav ul.navbar-nav li.nav-item button {
+      width: 96%; }
+      nav ul.navbar-nav li.nav-item button:hover {
+        background-color: #007bff;
+        font-weight: bold; }
+        nav ul.navbar-nav li.nav-item button:hover a:hover {
+          color: #ffffff; }
+    nav ul.navbar-nav .nav-link {
+      color: #ffffff; }
+      nav ul.navbar-nav .nav-link:hover {
+        color: #ffffff;
+        background-color: rgba(0, 123, 255, 0.5); }
+
+body {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-pack: 1889px;
+  width: 100%; }
+  body .container-fluid {
+    height: 100vh; }
+    body .container-fluid #Aside {
+      margin-top: 0;
+      padding-top: 0; }
+  body .container-lg {
+    height: auto; }
+  body .Contenido_Principal {
+    margin: 0; }
+  body #main {
+    height: 123em; }
+
+.Home {
+  margin-top: auto;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0; }
+    .Home .header .mask {
+      margin-top: 3em; }
+
+.ofertas.row {
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0; }
+  .ofertas.row .card {
+    margin: 0; }
+      .ofertas.row .card h3 span {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-weight: bold; }
+      .ofertas.row .card h3 div.slider {
+        width: 100 .ofertas.row .card h3 div.slider; }
+    .ofertas.row .card .carousel {
+      max-height: 78em; }
+  .row .botonWhatsapp {
+    height: 65px;
+    background-color: #32ff00; }
